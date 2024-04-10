@@ -2,8 +2,8 @@ import { ComponentFixture, TestBed, fakeAsync } from '@angular/core/testing';
 import { of } from 'rxjs';
 import { By } from '@angular/platform-browser';
 import { LoginComponent } from './login.component';
-import { AuthService } from '../services/AuthService';
-import { TokenService } from '../services/TokenService';
+import { AuthService } from '../services/auth.service';
+import { TokenService } from '../services/token.service';
 import { FormsModule } from '@angular/forms';
 
 describe('LoginComponent', () => {
